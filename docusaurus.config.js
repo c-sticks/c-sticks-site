@@ -3,23 +3,25 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  // title: 'c-sticks\n©️-sticks\n©️-🕹️',
+  title: 'c-sticks',
+  tagline: 'The App Development Company.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/joystick.png',
+  organizationName: 'c-sticks', // Usually your GitHub org/user name.
+  projectName: 's-sticks-site', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
-      logo: {
+      title: 'c-sticks',
+      /* logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-      },
+      }, */
       items: [
+        /*
         {
           type: 'doc',
           docId: 'intro',
@@ -32,12 +34,23 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+         */
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
+          title: 'Apps',
+          items: [
+            {
+              label: 'Puff (Coming soon)',
+              href: 'https://twitter.com',
+              // to: '/docs/intro',
+            },
+          ],
+        },
+        /* {
           title: 'Docs',
           items: [
             {
@@ -45,25 +58,27 @@ module.exports = {
               to: '/docs/intro',
             },
           ],
-        },
+        }, */
         {
-          title: 'Community',
+          title: 'Connect',
           items: [
-            {
+            /* {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
+            }, */
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com',
+            },
+            {
+              label: "Email",
+              href: "mailto:c.sticks.app@gmail.com",
+              // html: 'c.sticks.app@gmail.com'
+              // html: '<a href="mailto:address?subject=&amp;body=">Email</a>'
             },
           ],
         },
-        {
+        /* {
           title: 'More',
           items: [
             {
@@ -75,9 +90,9 @@ module.exports = {
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
-        },
+        }, */
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} C-STICKS LIMITED LIABILITY CO.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -91,8 +106,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
