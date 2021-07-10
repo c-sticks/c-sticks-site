@@ -1,1 +1,0 @@
-(self.webpackChunkc_sticks_site=self.webpackChunkc_sticks_site||[]).push([[282],{3399:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/s-sticks-site/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/s-sticks-site/blog/tags/docusaurus"}')}}]);

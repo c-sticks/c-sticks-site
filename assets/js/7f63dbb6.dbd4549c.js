@@ -1,1 +1,0 @@
-(self.webpackChunkc_sticks_site=self.webpackChunkc_sticks_site||[]).push([[935],{331:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/s-sticks-site/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/s-sticks-site/blog/tags/hello"}')}}]);
