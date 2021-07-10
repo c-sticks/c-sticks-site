@@ -6,13 +6,13 @@ module.exports = {
   // title: 'c-sticks\n©️-sticks\n©️-🕹️',
   title: 'c-sticks',
   tagline: 'The App Development Company.',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://c-sticks.github.io', // https://c-sticks.github.io
+  baseUrl: '/c-sticks-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/joystick.png',
   organizationName: 'c-sticks', // Usually your GitHub org/user name.
-  projectName: 's-sticks-site', // Usually your repo name.
+  projectName: 'c-sticks-site', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'c-sticks',
