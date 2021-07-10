@@ -7,7 +7,7 @@ module.exports = {
   title: 'c-sticks',
   tagline: 'The App Development Company.',
   url: 'https://c-sticks.github.io', // https://c-sticks.github.io
-  baseUrl: '/c-sticks-site/',
+  baseUrl: '/', // '/c-sticks-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/joystick.png',
