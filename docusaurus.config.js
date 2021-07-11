@@ -72,9 +72,7 @@ module.exports = {
             },
             {
               label: "Email",
-              href: "mailto:c.sticks.app@gmail.com",
-              // html: 'c.sticks.app@gmail.com'
-              // html: '<a href="mailto:address?subject=&amp;body=">Email</a>'
+              href: "mailto:info@c-sticks.com",
             },
           ],
         },
